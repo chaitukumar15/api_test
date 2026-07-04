@@ -63,7 +63,9 @@ def dataa(regsiter:register):
     )]
       })
 
-    return {"message":res["messages"][-1].content[0]["text"]}
+    res_api= res
+
+    return {"message":res_api}
 
 
 # @app.get("/data")
